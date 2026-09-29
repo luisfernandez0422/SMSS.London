@@ -84,3 +84,18 @@ footer{grid-template-columns:minmax(0,1fr) auto minmax(0,1fr)}
 footer .copyright{justify-self:center}
 footer>a{justify-self:end}
 @media(max-width:640px){footer{grid-template-columns:minmax(0,1fr) minmax(0,1fr) minmax(0,1fr)}footer .copyright{white-space:normal}}
+
+.newsletter{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:40px;padding:60px 7%;background:var(--blue);color:var(--cream)}
+.newsletter .eyebrow{color:var(--gold);margin-bottom:16px}
+.newsletter h2{font-size:clamp(32px,3.5vw,48px);letter-spacing:-1px}
+.newsletter p:not(.eyebrow){font-size:16px;max-width:600px;margin:18px 0 0}
+.newsletter-action{text-align:center}.newsletter-action p:not(.eyebrow){font-size:13px;margin-top:14px}
+@media(max-width:640px){.newsletter{grid-template-columns:1fr;gap:24px;padding:45px 7%}.newsletter-action{text-align:left}}
+
+/* Newsletter signup belongs to the questions section. */
+.questions .newsletter{grid-column:1 / -1;background:transparent;color:var(--ink);border-top:1px solid #132e6030;padding:32px 0 0;gap:30px}
+.questions .newsletter .eyebrow{color:var(--blue);margin-bottom:12px}
+.questions .newsletter h3{font-family:Georgia,'Times New Roman',serif;font-size:clamp(28px,3vw,38px);line-height:1.15;letter-spacing:-1px;margin:0}
+.questions .newsletter p:not(.eyebrow){margin-top:14px}
+.questions-guard{margin-bottom:0}
+@media(max-width:640px){.questions .newsletter{gap:22px;padding-top:28px}.questions-guard{margin-bottom:0}}

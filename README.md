@@ -26,3 +26,7 @@ Program facts come from the supplied poster. Exact dates, costs, eligibility, fi
 The website uses the supplied original illustrations unchanged. Transparent PNGs are individually positioned with responsive CSS. JPEG illustrations keep their original blue backgrounds. No regenerated artwork is used. All nine supplied illustrations are included in `assets`; the crown is available for future use. The original program poster is preserved as well.
 
 The hero title uses the supplied original logo at `assets/program-logo.png`, with an accessible text alternative.
+
+## Newsletter signup
+
+The Get London 2027 updates section links to the supplied Microsoft Form in a new tab. Responses are handled by Microsoft Forms, not stored by this website. Email delivery and notifications when the website changes are not automated by this signup link.
