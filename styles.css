@@ -121,9 +121,13 @@ footer>a{justify-self:end}
 @media(max-width:900px){.header .brand{max-width:none}.header nav{width:100%;justify-content:flex-start}.events-grid{grid-template-columns:1fr}.costs-section{gap:30px}}
 @media(max-width:640px){.header .brand{max-width:none}.header nav{gap:14px;font-size:12px}.header nav a:not(.nav-cta){display:block}.funding-teaser{align-items:flex-start;flex-direction:column}.funding-grid,.costs-section{grid-template-columns:1fr}.funding-card{padding:24px}.funding-content,.funding-events{padding:45px 7%}.funding-hero{padding:35px 7% 45px}.funding-hero .eyebrow{font-size:10px}}
 
-/* Original institutional logos, with matching scale and preserved clear space. */
-.institutional-logos{display:flex;justify-content:center;align-items:flex-start;gap:36px;padding:28px 5%;background:#fff;border-top:1px solid #132e6018}
-.institutional-logos img{display:block;height:auto;object-fit:contain;max-width:100%}
-.institutional-logos .education-abroad{width:290px}
-.institutional-logos .international-study{width:315px}
-@media(max-width:700px){.institutional-logos{flex-direction:column;align-items:center;gap:8px;padding:24px 5%}}
+/* Compact institutional signatures share the footer's white background. */
+footer.site-footer{display:flex;justify-content:space-between;align-items:center;gap:24px;padding:18px 5%;background:#fff;border-top:1px solid #132e6018}
+.site-footer .institutional-logos{display:flex;align-items:flex-start;gap:12px;flex:0 1 347px;min-width:0}
+.institutional-logos img{display:block;height:auto;object-fit:contain;min-width:0;max-width:100%}
+.institutional-logos .education-abroad{width:160px;flex:0 1 160px}
+.institutional-logos .international-study{width:175px;flex:0 1 175px}
+.site-footer .footer-meta{display:flex;align-items:center;justify-content:flex-end;gap:24px;font-size:12px}
+.site-footer .copyright{margin:0;width:auto;white-space:normal;font-size:12px;text-align:right}
+.footer-meta a{white-space:nowrap}
+@media(max-width:700px){footer.site-footer{flex-direction:column;gap:12px;padding:16px 5%}.site-footer .institutional-logos{flex:none;width:100%;max-width:347px}.site-footer .footer-meta{width:100%;justify-content:center;gap:16px;font-size:11px}.site-footer .copyright{font-size:11px;text-align:center}}
