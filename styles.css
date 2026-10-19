@@ -120,3 +120,10 @@ footer>a{justify-self:end}
 .costs-section{display:grid;grid-template-columns:1.2fr 1fr;gap:60px}.costs-section a{overflow-wrap:anywhere}.funding-next{padding:30px;background:var(--blue);color:var(--cream);border-radius:24px}.funding-source{font-size:12px;padding:0 7% 30px;margin:0;max-width:1000px}
 @media(max-width:900px){.header .brand{max-width:none}.header nav{width:100%;justify-content:flex-start}.events-grid{grid-template-columns:1fr}.costs-section{gap:30px}}
 @media(max-width:640px){.header .brand{max-width:none}.header nav{gap:14px;font-size:12px}.header nav a:not(.nav-cta){display:block}.funding-teaser{align-items:flex-start;flex-direction:column}.funding-grid,.costs-section{grid-template-columns:1fr}.funding-card{padding:24px}.funding-content,.funding-events{padding:45px 7%}.funding-hero{padding:35px 7% 45px}.funding-hero .eyebrow{font-size:10px}}
+
+/* Original institutional logos, with matching scale and preserved clear space. */
+.institutional-logos{display:flex;justify-content:center;align-items:flex-start;gap:36px;padding:28px 5%;background:#fff;border-top:1px solid #132e6018}
+.institutional-logos img{display:block;height:auto;object-fit:contain;max-width:100%}
+.institutional-logos .education-abroad{width:290px}
+.institutional-logos .international-study{width:315px}
+@media(max-width:700px){.institutional-logos{flex-direction:column;align-items:center;gap:8px;padding:24px 5%}}
